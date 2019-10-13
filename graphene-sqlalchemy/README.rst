@@ -14,9 +14,6 @@ Install requirements.
 
 Add some rows in database.
 
-Try
----
-
 .. code:: pycon
 
     Python 3.7.5rc1 (default, Oct  8 2019, 16:47:45)
@@ -29,6 +26,9 @@ Try
     >>> scooter.customers_who_rent = customers
     >>> db_session.add(scooter)
     >>> db_session.commit()
+
+Try
+---
 
 Run server.
 
